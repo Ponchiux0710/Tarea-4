@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Declaración del Impuesto sobre Bienes Inmuebles</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Formulario de Declaración del Impuesto sobre Bienes Inmuebles</h2>
+        <form>
+            <div class="form-group row">
+
+                <div class="col-sm-6">
+                    <p>El contribuyente solicitó asistencia del funcionario Municipal para completar la presente
+                        Declaración</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="asistencia_si">
+                        <label class="form-check-label" for="asistencia_si">
+                            SI
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="asistencia_no">
+                        <label class="form-check-label" for="asistencia_no">
+                            NO
+                        </label>
+                        <input type="text" class="form-control" placeholder="FIRMA">
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <p>MUNICIPALIDAD DE DESAMPARADOS</p>
+                    <p>DECLARACIÓN DEL IMPUESTO SOBRE BIENES INMUEBLES</p>
+                    <p>ZONA HOMOGENEA</p>
+                </div>
+            </div>
+
+            <h5>CUADRO I. IDENTIFICACIÓN DEL PROPIETARIO</h5>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">1. N° DE CÉDULA (física o jurídica)</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <label class="col-sm-2 col-form-label">2. APELLIDOS Y NOMBRE O RAZÓN SOCIAL</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>3. DOMICILIO FISCAL (SEÑAS)</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label>4. PROVINCIA</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>5. N° CANTÓN</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>6. DISTRITO</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>7. N° TELEFONO</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>8. N° FAX</label>
+                    <input type="text" class="form-control">
+                </div>
+
+            </div>
+            <div class="form-group ">
+                <label>9. CORREO ELECTRONICO PARA NOTIFICACIONES</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>EN CASO DE PERSONA JURIDICA ANOTAR DATOS DEL REPRESENTANTE LEGAL</label>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>10. N° CÉDULA</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>11. NOMBRE Y APELLIDOS</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>12. DOMICILIO FISCAL (SEÑAS)</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label>13. PROVINCIA</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>14. CANTÓN</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>15. DISTRITO</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>16. N° TELEFONO</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>17. N° FAX</label>
+                    <input type="text" class="form-control">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label>18. CORREO ELECTRONICO PARA NOTIFICACIONES</label>
+                <input type="text" class="form-control">
+            </div>
+            <h5>CUADRO II. IDENTIFICACIÓN DE LA PROPIEDAD</h5>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">19. UBICACION</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" placeholder="Distrito">
+                </div>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" placeholder="Dirección Exacta">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">20. N° DE FINCA:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">21. N° PLANO CATASTRO</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+                <label class="col-sm-2 col-form-label">22. AREA (M CUADRADOS)</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label class="col-form-label">23. SERVICIOS PÚBLICOS QUE POSEE:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="acera">
+                        <label class="form-check-label" for="acera">
+                            Acera
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="cordon_y_cano">
+                        <label class="form-check-label" for="cordon_y_cano">
+                            Cordón y caño
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="caneria">
+                        <label class="form-check-label" for="caneria">
+                            Cañería
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="alcantarillado">
+                        <label class="form-check-label" for="alcantarillado">
+                            Alcantarillado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="telefono">
+                        <label class="form-check-label" for="telefono">
+                            Teléfono
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="electricidad">
+                        <label class="form-check-label" for="electricidad">
+                            Electricidad
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="alumbrado_publico">
+                        <label class="form-check-label" for="alumbrado_publico">
+                            Alumbrado Público
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="todos_los_anteriores">
+                        <label class="form-check-label" for="todos_los_anteriores">
+                            Todos los anteriores
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label class="col-form-label">24. VIA ACCESO PRINCIPAL:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="camino_asfaltado">
+                        <label class="form-check-label" for="camino_asfaltado">
+                            Camino asfaltado
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="alameda">
+                        <label class="form-check-label" for="alameda">
+                            Alameda
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="camino_de_lastre">
+                        <label class="form-check-label" for="camino_de_lastre">
+                            Camino de lastre
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="camino_de_tierra">
+                        <label class="form-check-label" for="camino_de_tierra">
+                            Camino de tierra
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="linea_ferrea">
+                        <label class="form-check-label" for="linea_ferrea">
+                            Línea férrea
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="servidumbre">
+                        <label class="form-check-label" for="servidumbre">
+                            Servidumbre
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label class="col-form-label">25. FRENTE PROPIEDAD [metros]:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese los metros">
+                </div>
+                <div class="col-sm-6">
+                    <label class="col-form-label">26. REGULARIDAD:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="regular" name="regularidad" value="regular">
+                        <label class="form-check-label" for="regular">
+                            Regular
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="irregular" name="regularidad"
+                            value="irregular">
+                        <label class="form-check-label" for="irregular">
+                            Irregular
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="porcentaje">Porcentaje:</label>
+                        <input type="text" class="form-control" id="porcentaje" placeholder="Ingrese el porcentaje">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label class="col-form-label">27. PENDIENTE:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="plano">
+                        <label class="form-check-label" for="plano">
+                            Plano (0 - 5%)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="ondulado">
+                        <label class="form-check-label" for="ondulado">
+                            Ondulado (5-15%)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="accidentado">
+                        <label class="form-check-label" for="accidentado">
+                            Accidentado (16 - 30%)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="muy_accidentado">
+                        <label class="form-check-label" for="muy_accidentado">
+                            Muy accidentado (30-45%)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="quebrado">
+                        <label class="form-check-label" for="quebrado">
+                            Quebrado (45-60%)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="muy_quebrado">
+                        <label class="form-check-label" for="muy_quebrado">
+                            Muy quebrado (más de 60%)
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="col-form-label">28. NIVEL:</label>
+                    <div class="form-group">
+                        <label for="nivel">A nivel</label>
+                        <input type="text" class="form-control" id="nivel">
+                    </div>
+                    <div class="form-group">
+                        <label for="metros_sobre_nivel">Sobre nivel</label>
+                        <input type="text" class="form-control" id="metros_sobre_nivel">
+                    </div>
+                    <div class="form-group">
+                        <label for="metros_bajo_nivel">Bajo nivel</label>
+                        <input type="text" class="form-control" id="metros_bajo_nivel">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <label class="col-form-label">29. UBICACIÓN EN LA MANZANA:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="manzanero">
+                        <label class="form-check-label" for="manzanero">
+                            Manzanero
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="medianero">
+                        <label class="form-check-label" for="medianero">
+                            Medianero
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="cabecero">
+                        <label class="form-check-label" for="cabecero">
+                            Cabecero
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="callejon_lateral">
+                        <label class="form-check-label" for="callejon_lateral">
+                            En callejón lateral
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="esquinero">
+                        <label class="form-check-label" for="esquinero">
+                            Esquinero
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="callejon_al_fondo">
+                        <label class="form-check-label" for="callejon_al_fondo">
+                            En callejón al fondo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="medianero_dos_frentes">
+                        <label class="form-check-label" for="medianero_dos_frentes">
+                            Medianero con dos frentes
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label class="col-form-label">30. HIDROLOGIA:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hidrologia_excelente">
+                        <label class="form-check-label" for="hidrologia_excelente">
+                            Excelente
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hidrologia_bueno">
+                        <label class="form-check-label" for="hidrologia_bueno">
+                            Bueno
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hidrologia_muy_bueno">
+                        <label class="form-check-label" for="hidrologia_muy_bueno">
+                            Muy bueno
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hidrologia_regular">
+                        <label class="form-check-label" for="hidrologia_regular">
+                            Regular
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="hidrologia_malo">
+                        <label class="form-check-label" for="hidrologia_malo">
+                            Malo
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label class="col-form-label">31. USO DEL SUELO:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="uso_suelo_excelente">
+                        <label class="form-check-label" for="uso_suelo_excelente">
+                            Excelente
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="uso_suelo_bueno">
+                        <label class="form-check-label" for="uso_suelo_bueno">
+                            Bueno
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="uso_suelo_muy_bueno">
+                        <label class="form-check-label" for="uso_suelo_muy_bueno">
+                            Muy bueno
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="uso_suelo_regular">
+                        <label class="form-check-label" for="uso_suelo_regular">
+                            Regular
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="uso_suelo_malo">
+                        <label class="form-check-label" for="uso_suelo_malo">
+                            Malo
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label class="col-form-label">32. VALOR UNITARIO DEL TERRENO:</label>
+                    <div class="form-group">
+                        <label for="valor_unitario_metro_cuadrado">Valor por metro cuadrado (¢):</label>
+                        <input type="text" class="form-control" id="valor_unitario_metro_cuadrado">
+                    </div>
+                    <div class="form-group">
+                        <label for="valor_unitario_hectarea">Valor por hectárea (¢):</label>
+                        <input type="text" class="form-control" id="valor_unitario_hectarea">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label class="col-form-label">33. VALOR TOTAL DEL TERRENO:</label>
+                    <input type="text" class="form-control" placeholder="Valor total del terreno">
+                    <small id="casilla_info" class="form-text text-muted">Este valor se calcula como la multiplicación
+                        de los valores de las casillas 22 y 32.</small>
+                    <small id="pasar_info" class="form-text text-muted">Pasar a casilla N°49.</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label class="col-form-label">CUADRO III. DESCRIPCIÓN DE CONSTRUCCIONES, INSTALACIONES Y OBRAS
+                        COMPLEMENTARIAS</label>
+                    <div class="form-group row">
+                        <div class="col-sm-4">
+                            <label class="col-form-label">34. USO:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el uso">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">35. EDAD ACTUAL:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese la edad actual">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">36. ESTADO:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el estado">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">37. N° PISOS:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el número de pisos">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">38. N° APOSENTOS:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el número de aposentos">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">39. AREA CONSTRUCCIÓN:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el área de construcción">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">40. VALOR POR M2:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el valor por m2">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">41. VALOR DE CONSTRUCCIÓN:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese el valor de construcción">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label class="col-form-label">42. VALOR TOTAL DE LAS CONSTRUCCIONES:</label>
+                    <input type="text" class="form-control" placeholder="Valor total de las construcciones">
+                    <label class="col-form-label">43. PAREDES EXTERNAS:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tipo de paredes externas">
+                    <label class="col-form-label">44. PAREDES INTERNAS:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tipo de paredes internas">
+                    <label class="col-form-label">45. CUBIERTA:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tipo de cubierta">
+                    <label class="col-form-label">46. CIELOS:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tipo de cielos">
+                    <label class="col-form-label">47. PISOS:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el tipo de pisos">
+                    <label class="col-form-label">48. BAÑOS:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese el número de baños">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <h4>CUADRO IV. DETERMINACION DEL VALOR</h4>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label class="col-form-label">49. VALOR TOTAL DEL TERRENO:</label>
+                    <input type="text" class="form-control" placeholder="Valor total del terreno" readonly>
+                    <small id="casilla_info_49" class="form-text text-muted">Viene de casilla 33</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label class="col-form-label">50. VALOR TOTAL DE LA CONSTRUCCIÓN:</label>
+                    <input type="text" class="form-control" placeholder="Valor total de la construcción" readonly>
+                    <small id="casilla_info_50" class="form-text text-muted">Viene de casilla 41</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label class="col-form-label">51. VALOR TOTAL DEL TERRENO Y CONSTRUCCIÓN:</label>
+                    <input type="text" class="form-control" placeholder="Valor total del terreno y construcción"
+                        readonly>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9">
+                    <label class="col-form-label">Declaro que toda la presente información es cierta, correcta y
+                        verdadera</label>
+                    <input type="text" class="form-control" placeholder="FIRMA DEL PROPIETARIO">
+                </div>
+                <div class="col-sm-3">
+                    <p>Este formulario debe ser enviado al correo electrónico bsandi@desamparados.go.cr. Consultas al
+                        teléfono: 2217-3551</p>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
